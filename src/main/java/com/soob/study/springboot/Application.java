@@ -19,3 +19,11 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
 }
+
+
+// error
+
+// java.net.BindException: Address already in use 맥
+
+// sudo lsof -i :8080
+// kill (process-id)
