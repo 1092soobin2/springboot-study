@@ -26,4 +26,8 @@ package
 - web: 컨트롤러 관련 클래스 포함
 - dto: 응답 dto 관련 클래스 포함
 - domain: 도메인(게시글, 댓글 등 SW 요구사항 혹은 문제 영역)을 담은 패키지
- 
+
+class, interface
+- `/domain/posts/`
+    - `Posts`: JPA entity class
+    - `PostsRepository`: `Posts` class로 DB를 접근하게 해 줄 JpaRepositoty
