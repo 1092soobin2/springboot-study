@@ -17,6 +17,7 @@ public class HelloController {
     }
 
     @GetMapping("/hello/dto")
+    // http://localhost:8080/hello/dto?name=soobin&amount=100
     // @R.. : 외부에서 API 넘긴 파라미터를 가져오는 어노테이션
     // 'name'으로 넘긴 파라미터를 메소드 파라미터 `name`에 저장하게 됨
     public HelloResponseDto helloDto(@RequestParam("name") String name,
